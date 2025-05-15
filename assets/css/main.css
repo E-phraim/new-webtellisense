@@ -328,6 +328,10 @@ h6 {
   }
 }
 
+.sub-menu li a {
+  text-transform: capitalize;
+}
+
 /* Navmenu - Mobile */
 @media (max-width: 1199px) {
   .mobile-nav-toggle {
@@ -882,6 +886,26 @@ section,
 @media (max-width: 768px) {
   .hero h2 {
     font-size: 30px;
+  }
+
+  .hero .container {
+    left: -10px;
+    bottom: -50px;
+    width: 80%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+    z-index: 111111111 !important;
+  }
+
+  .hero-sub-h {
+    font-size: clamp(2.4375rem, 5vw, 3.8125rem) !important;
+    font-weight: 900 !important;
+    line-height: 1.2em !important;
+    text-align: center;
+    max-width: 15ch !important;
+    margin: 0 0 1rem 0 !important;
+    position: relative;
   }
 }
 
@@ -1825,7 +1849,6 @@ section,
   margin-top: 20px;
   position: relative;
 }
-
 
 .portfolio-details .swiper-pagination .swiper-pagination-bullet {
   width: 10px;
