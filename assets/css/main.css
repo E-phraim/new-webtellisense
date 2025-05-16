@@ -197,7 +197,9 @@ h6 {
 .header .header-social-links a i {
   line-height: 0px;
 }
-
+.sub-menu li a {
+  text-transform: capitalize !important;
+}
 @media (max-width: 1200px) {
   .header .logo {
     order: 1;
@@ -890,7 +892,7 @@ section,
 
   .hero .container {
     left: -10px;
-    bottom: 150px;
+    bottom: 200px;
     width: 80%;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -1802,6 +1804,58 @@ section,
   font-family: sans-serif;
   font-weight: 400 !important;
 }
+
+.service-benefits {
+  background: #f8fafc;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+.service-benefits ul {
+  padding-left: 0;
+  list-style: none;
+}
+.service-benefits li {
+  padding: 8px 0;
+  position: relative;
+  padding-left: 30px;
+}
+.service-benefits li i {
+  color: #37697e;
+  position: absolute;
+  left: 0;
+}
+.service-features {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin: 30px 0;
+}
+.feature {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+}
+.feature i {
+  font-size: 1.8rem;
+  color: #01344e;
+  margin-bottom: 10px;
+}
+.cta-box {
+  background: #01344e;
+  color: white;
+  padding: 30px;
+  border-radius: 8px;
+  margin-top: 40px;
+  text-align: center;
+}
+.cta-box .btn {
+  background: white;
+  color: #01344e;
+  font-weight: 600;
+}
+
 /*--------------------------------------------------------------
 # Portfolio Details Section
 --------------------------------------------------------------*/
