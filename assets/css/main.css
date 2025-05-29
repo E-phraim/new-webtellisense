@@ -874,8 +874,8 @@ section,
 }
 @media (max-width: 1200px) {
   .hero .container {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
 
@@ -886,14 +886,14 @@ section,
 }
 
 @media (max-width: 768px) {
-  .hero h2 {
+  /* .hero h2 {
     font-size: 30px;
-  }
+  } */
 
   .hero .container {
     left: -10px;
     bottom: 200px;
-    width: 80%;
+    width: 100%;
     padding-top: 30px;
     padding-bottom: 30px;
     margin-bottom: 50px;
@@ -901,7 +901,7 @@ section,
   }
 
   .hero-sub-h {
-    font-size: clamp(2.4375rem, 5vw, 3.8125rem) !important;
+    font-size: 45px !important;
     font-weight: 900 !important;
     line-height: 1.2em !important;
     text-align: center;
@@ -1285,7 +1285,7 @@ section,
   fill: #f3268c;
 }
 
-.dm-img{
+.dm-img {
   height: 500px;
   width: 500px;
   object-fit: cover;
